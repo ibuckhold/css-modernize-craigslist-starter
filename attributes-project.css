@@ -38,8 +38,14 @@ body {
   color: #464646;
 }
 
-a[href] {
+a {
   text-decoration: none;
+
+}
+
+a:hover {
+  color: #800080;
+  font-weight: bold;
 }
 
 ul {
@@ -49,3 +55,13 @@ ul {
 ul > li {
   list-style: none;
 }
+
+/* a[href]:hover{
+  color: #800080;
+  font-weight: bold;
+} */
+
+/* a[span]:hover{
+  color: #800080;
+  font-weight: bold;
+} */
