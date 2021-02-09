@@ -32,8 +32,8 @@ p.more {
 
 /* Write your CSS here. */
 
-body {
-  font-family: 'Helvetica Neue', 'Helvitica', 'sans-serif';
+* {
+  font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
   background-color: whitesmoke;
   color: #464646;
 }
@@ -105,7 +105,7 @@ ul.clfooter {
   padding: 10px 0 10px 0;
 }
 
-ul.clfooter + li {
+ul.clfooter > li {
   display: inline;
   padding-right: 5px;
 }
